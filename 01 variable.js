@@ -97,3 +97,32 @@ function funlet(){
 funlet()
 
 /**---------------------------------end--------------let------------- */
+
+// now working with const 
+
+const constv=500;
+
+console.log("const1",constv);
+
+// constv =501;  again reasign error
+{
+    console.log("here const",constv); // here error
+    const constv2=510;
+    
+    
+}
+// console.log("here const",constv2);  erro because blog scope
+
+
+function cons1(){
+
+    console.log("here in fcin",constv);
+    const constv3=600;
+}
+
+// console.log(constv3);   error here this is
+
+cons1()
+
+
+/** Cons ----------------------------  end*/
