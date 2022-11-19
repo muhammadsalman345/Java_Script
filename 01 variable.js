@@ -59,3 +59,41 @@ console.log(variwithout);
 
 /**---------------------------------end--------------var------------- */
 
+// now work with let 
+
+let varlet=200;
+console.log(varlet);
+
+//  again  declear
+
+// let varlet=2001; error
+// but 
+varlet =203;
+console.log("lat again reasighn",varlet);
+
+// scope of let
+
+
+let scoop1=205
+
+{
+
+    console.log("this block",scoop1);
+// in block scope 
+    let scope2=104
+    console.log("delear in block in braket",scope2);
+}
+// console.log("delear in block",scope2); // here erro
+function funlet(){
+
+    console.log("here funcscope_let",scoop1);
+
+    let infunc =110;
+
+    console.log(infunc);
+}
+// console.log(infunc)  erro because function scope
+
+funlet()
+
+/**---------------------------------end--------------let------------- */
