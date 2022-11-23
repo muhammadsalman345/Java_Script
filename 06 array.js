@@ -36,3 +36,5 @@ array.unshift("this add one")
 console.log(array);
 
 
+array.shift()// get fisrt element which can store in variable
+console.log(array);
